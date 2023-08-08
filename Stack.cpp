@@ -22,7 +22,7 @@ int main(){
             cout<<"Poped:"<<pop(&top)<<endl;
             break;
         case 3:
-            cout<<"Element on the top:"<<peek(top)<<endl;
+            cout<<"Element on the top:"<<top(top)<<endl;
             break;
         default:
             cout<<"[!!!]Exiting...[!!!]";
