@@ -21,7 +21,7 @@ namespace MyStack{
     //Для просмотра что находится на вершине стека
     inline double top(Node *top){
         return top->data;
-    }//double peek
+    }//double top
     //Удаляет элемент на вершине стека и возвращает его значение
     double pop(Node **top){
         Node *tmp = *top;
