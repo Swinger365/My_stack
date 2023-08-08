@@ -19,7 +19,7 @@ namespace MyStack{
         *top = new_element;
     }//push
     //Для просмотра что находится на вершине стека
-    inline double peek(Node *top){
+    inline double top(Node *top){
         return top->data;
     }//double peek
     //Удаляет элемент на вершине стека и возвращает его значение
